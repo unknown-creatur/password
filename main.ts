@@ -9,7 +9,7 @@ input.onGesture(Gesture.ScreenUp, function () {
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
     basic.pause(3000)
-    radio.sendString("")
+    radio.sendString(receivedString)
 })
 function 攔截數 () {
     radio.sendNumber(數)
